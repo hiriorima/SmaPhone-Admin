@@ -17,7 +17,7 @@ class AdminViewController: UIViewController {
     private var songNameArr = ["長谷部","進藤","金田","田島","所沢","鈴木","田代","宮岡","飯田","米田","太田","高田","本田","袴田","新規作成"]
     
     
-    var socket = SocketIOClient(socketURL: URL(string: "http://54.250.250.2:5000/websocket")!, config: [.log(true), .forceWebsockets(true), .forcePolling(true)])
+    var socket = SocketIOClient(socketURL: URL(string: "ws://54.250.250.2:5000/websocket")!, config: [.log(true), .forceWebsockets(true), .forcePolling(true)])
     
     override func viewDidLoad() {
         super.viewDidLoad()
