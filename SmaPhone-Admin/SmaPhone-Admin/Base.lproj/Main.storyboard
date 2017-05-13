@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SmaPhone_Admin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,166 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sumaphoneUI-13.png" translatesAutoresizingMaskIntoConstraints="NO" id="sfj-pV-rfS">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sumaphoneUI-18.png" translatesAutoresizingMaskIntoConstraints="NO" id="jOu-5r-eCK">
+                                <rect key="frame" x="28" y="121" width="318" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="318" id="Eht-Dh-NTR"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="104" id="Kfc-Rg-o53"/>
+                                    <constraint firstAttribute="height" constant="86" id="LXO-Y4-C1y"/>
+                                    <constraint firstAttribute="height" constant="104" id="NGj-EM-kmV"/>
+                                    <constraint firstAttribute="width" constant="318" id="t5S-d1-nDg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="グループID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvD-53-UKY">
+                                <rect key="frame" x="16" y="373" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="9桁の番号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="flf-Zl-6IR">
+                                <rect key="frame" x="125" y="368" width="234" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.46808978873239437" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0u-Cn-Xi1">
+                                <rect key="frame" x="80" y="471" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <state key="normal" title="団体管理者の方はこちら"/>
+                                <connections>
+                                    <segue destination="p7L-0S-9gT" kind="show" animates="NO" id="GHv-Ow-m4G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBP-I1-otu">
+                                <rect key="frame" x="139" y="423" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="ログイン"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt8-Fo-7R8" userLabel="Bluetooh">
+                                <rect key="frame" x="94" y="542" width="187" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="sumaphoneUI-07.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sfj-pV-rfS" secondAttribute="bottom" id="Mnr-wp-0nm"/>
+                            <constraint firstItem="sfj-pV-rfS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nng-OA-AGg"/>
+                            <constraint firstAttribute="trailing" secondItem="sfj-pV-rfS" secondAttribute="trailing" id="OGZ-oB-6M3"/>
+                            <constraint firstItem="sfj-pV-rfS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UmJ-MO-FO6"/>
+                            <constraint firstItem="jOu-5r-eCK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZC3-tA-9IH"/>
+                            <constraint firstItem="jOu-5r-eCK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="102" id="ocx-n4-rAe"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="97.601199400299862"/>
+        </scene>
+        <!--Login Admin View Controller-->
+        <scene sceneID="t0c-ey-2F9">
+            <objects>
+                <viewController id="p7L-0S-9gT" customClass="LoginAdminViewController" customModule="SmaPhone_Admin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mvn-nf-HBq"/>
+                        <viewControllerLayoutGuide type="bottom" id="rg9-9k-h2f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zvL-OT-f77">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sumaphoneUI-13.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ozh-ah-f0W">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sumaphoneUI-18.png" translatesAutoresizingMaskIntoConstraints="NO" id="I5C-6R-WVt">
+                                <rect key="frame" x="28" y="121" width="318" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="104" id="DPP-8g-3XG"/>
+                                    <constraint firstAttribute="height" constant="104" id="GLx-e3-t9u"/>
+                                    <constraint firstAttribute="height" constant="86" id="RTq-Rb-dKi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="318" id="TgU-Ki-4md"/>
+                                    <constraint firstAttribute="width" constant="318" id="ygI-6A-dT0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="パスワード" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEF-xK-dHz">
+                                <rect key="frame" x="16" y="373" width="102" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTy-iY-mEp">
+                                <rect key="frame" x="16" y="316" width="101" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="9桁の番号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NVL-Fb-zeL">
+                                <rect key="frame" x="125" y="368" width="234" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.46808978870000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="9桁の番号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fSy-UY-WTk">
+                                <rect key="frame" x="125" y="311" width="234" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.46808978870000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqA-I5-CcT">
+                                <rect key="frame" x="80" y="471" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <state key="normal" title="パスワードを忘れた"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQp-LW-tvJ">
+                                <rect key="frame" x="139" y="423" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="ログイン"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gr-gQ-eMO" userLabel="Bluetooth">
+                                <rect key="frame" x="94" y="542" width="187" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="sumaphoneUI-07.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ozh-ah-f0W" firstAttribute="leading" secondItem="zvL-OT-f77" secondAttribute="leading" id="7KV-TO-NyO"/>
+                            <constraint firstItem="I5C-6R-WVt" firstAttribute="centerX" secondItem="zvL-OT-f77" secondAttribute="centerX" id="JWB-YX-ert"/>
+                            <constraint firstAttribute="trailing" secondItem="Ozh-ah-f0W" secondAttribute="trailing" id="P5h-UU-Vso"/>
+                            <constraint firstItem="rg9-9k-h2f" firstAttribute="top" secondItem="Ozh-ah-f0W" secondAttribute="bottom" id="PtG-Fm-0Y0"/>
+                            <constraint firstItem="I5C-6R-WVt" firstAttribute="top" secondItem="mvn-nf-HBq" secondAttribute="bottom" constant="102" id="Rd2-zE-8mm"/>
+                            <constraint firstItem="Ozh-ah-f0W" firstAttribute="top" secondItem="mvn-nf-HBq" secondAttribute="bottom" id="r8y-BV-BRr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zW1-yn-KaA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqK-Bz-O8s" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1556" y="98"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sumaphoneUI-07.png" width="1558" height="558"/>
+        <image name="sumaphoneUI-13.png" width="3125" height="5558"/>
+        <image name="sumaphoneUI-18.png" width="1874" height="486"/>
+    </resources>
 </document>
