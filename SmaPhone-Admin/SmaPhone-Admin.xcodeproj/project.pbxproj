@@ -14,6 +14,9 @@
 		0D3B5EC81EC7484A00402742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3B5EC61EC7484A00402742 /* LaunchScreen.storyboard */; };
 		0D3B5ED31EC7484A00402742 /* SmaPhone_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B5ED21EC7484A00402742 /* SmaPhone_AdminTests.swift */; };
 		0D3B5EDE1EC7484A00402742 /* SmaPhone_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B5EDD1EC7484A00402742 /* SmaPhone_AdminUITests.swift */; };
+		78184AB1CF90B602739C9B76 /* Pods_SmaPhone_AdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D35459B8D77B2B397C840 /* Pods_SmaPhone_AdminUITests.framework */; };
+		94750EE96134CB6AE052AE04 /* Pods_SmaPhone_AdminTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442B4E5B6CB06D03D5681D00 /* Pods_SmaPhone_AdminTests.framework */; };
+		F9DE6491A9F869AE0CA8C54A /* Pods_SmaPhone_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF378A32F97B4D2D58EEE77 /* Pods_SmaPhone_Admin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0D3B5ED91EC7484A00402742 /* SmaPhone-AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmaPhone-AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3B5EDD1EC7484A00402742 /* SmaPhone_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaPhone_AdminUITests.swift; sourceTree = "<group>"; };
 		0D3B5EDF1EC7484A00402742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179D35459B8D77B2B397C840 /* Pods_SmaPhone_AdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaPhone_AdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442B4E5B6CB06D03D5681D00 /* Pods_SmaPhone_AdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaPhone_AdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F4DBA885555BC06E282A50 /* Pods-SmaPhone-Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-Admin/Pods-SmaPhone-Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF378A32F97B4D2D58EEE77 /* Pods_SmaPhone_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaPhone_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8F2E27FF00E6D89037A4F9 /* Pods-SmaPhone-AdminTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-AdminTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-AdminTests/Pods-SmaPhone-AdminTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E415167C9D0467E8DCA9D16 /* Pods-SmaPhone-AdminTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-AdminTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-AdminTests/Pods-SmaPhone-AdminTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1EA877646E4D4F8E2A9CA11 /* Pods-SmaPhone-AdminUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-AdminUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-AdminUITests/Pods-SmaPhone-AdminUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C659C33311CEEFE67DFE76D6 /* Pods-SmaPhone-AdminUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-AdminUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-AdminUITests/Pods-SmaPhone-AdminUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA6B2392FC5729F04E08D3AB /* Pods-SmaPhone-Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-Admin/Pods-SmaPhone-Admin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DE6491A9F869AE0CA8C54A /* Pods_SmaPhone_Admin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94750EE96134CB6AE052AE04 /* Pods_SmaPhone_AdminTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78184AB1CF90B602739C9B76 /* Pods_SmaPhone_AdminUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0D3B5ED11EC7484A00402742 /* SmaPhone-AdminTests */,
 				0D3B5EDC1EC7484A00402742 /* SmaPhone-AdminUITests */,
 				0D3B5EBB1EC7484A00402742 /* Products */,
+				81A751185056BE188C6C3D00 /* Pods */,
+				678EAF0407AC6B5281A9AF6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "SmaPhone-AdminUITests";
 			sourceTree = "<group>";
 		};
+		678EAF0407AC6B5281A9AF6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF378A32F97B4D2D58EEE77 /* Pods_SmaPhone_Admin.framework */,
+				442B4E5B6CB06D03D5681D00 /* Pods_SmaPhone_AdminTests.framework */,
+				179D35459B8D77B2B397C840 /* Pods_SmaPhone_AdminUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81A751185056BE188C6C3D00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49F4DBA885555BC06E282A50 /* Pods-SmaPhone-Admin.debug.xcconfig */,
+				CA6B2392FC5729F04E08D3AB /* Pods-SmaPhone-Admin.release.xcconfig */,
+				7E415167C9D0467E8DCA9D16 /* Pods-SmaPhone-AdminTests.debug.xcconfig */,
+				7D8F2E27FF00E6D89037A4F9 /* Pods-SmaPhone-AdminTests.release.xcconfig */,
+				A1EA877646E4D4F8E2A9CA11 /* Pods-SmaPhone-AdminUITests.debug.xcconfig */,
+				C659C33311CEEFE67DFE76D6 /* Pods-SmaPhone-AdminUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3B5EE21EC7484A00402742 /* Build configuration list for PBXNativeTarget "SmaPhone-Admin" */;
 			buildPhases = (
+				9E3E7AC7FFECD1D087A164F3 /* [CP] Check Pods Manifest.lock */,
 				0D3B5EB61EC7484A00402742 /* Sources */,
 				0D3B5EB71EC7484A00402742 /* Frameworks */,
 				0D3B5EB81EC7484A00402742 /* Resources */,
+				FCC711E7422B0FFDDDBC2CE0 /* [CP] Embed Pods Frameworks */,
+				496339E2894EC79522AD6CFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3B5EE51EC7484A00402742 /* Build configuration list for PBXNativeTarget "SmaPhone-AdminTests" */;
 			buildPhases = (
+				3C39B111468C39990D34A65F /* [CP] Check Pods Manifest.lock */,
 				0D3B5ECA1EC7484A00402742 /* Sources */,
 				0D3B5ECB1EC7484A00402742 /* Frameworks */,
 				0D3B5ECC1EC7484A00402742 /* Resources */,
+				945EA0D33A22C1FA7A241EE9 /* [CP] Embed Pods Frameworks */,
+				13A0C8F5724538C2098EFE6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3B5EE81EC7484A00402742 /* Build configuration list for PBXNativeTarget "SmaPhone-AdminUITests" */;
 			buildPhases = (
+				EC1721BF22BCF22218E9344E /* [CP] Check Pods Manifest.lock */,
 				0D3B5ED51EC7484A00402742 /* Sources */,
 				0D3B5ED61EC7484A00402742 /* Frameworks */,
 				0D3B5ED71EC7484A00402742 /* Resources */,
+				E16979CFABFE18971EC62B39 /* [CP] Embed Pods Frameworks */,
+				89EE336345A3355212E489BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A0C8F5724538C2098EFE6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-AdminTests/Pods-SmaPhone-AdminTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C39B111468C39990D34A65F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		496339E2894EC79522AD6CFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-Admin/Pods-SmaPhone-Admin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89EE336345A3355212E489BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-AdminUITests/Pods-SmaPhone-AdminUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945EA0D33A22C1FA7A241EE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-AdminTests/Pods-SmaPhone-AdminTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3E7AC7FFECD1D087A164F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E16979CFABFE18971EC62B39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-AdminUITests/Pods-SmaPhone-AdminUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1721BF22BCF22218E9344E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC711E7422B0FFDDDBC2CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmaPhone-Admin/Pods-SmaPhone-Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D3B5EB61EC7484A00402742 /* Sources */ = {
@@ -415,6 +602,7 @@
 		};
 		0D3B5EE31EC7484A00402742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F4DBA885555BC06E282A50 /* Pods-SmaPhone-Admin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H543XE4ASB;
@@ -428,6 +616,7 @@
 		};
 		0D3B5EE41EC7484A00402742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6B2392FC5729F04E08D3AB /* Pods-SmaPhone-Admin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H543XE4ASB;
@@ -441,6 +630,7 @@
 		};
 		0D3B5EE61EC7484A00402742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E415167C9D0467E8DCA9D16 /* Pods-SmaPhone-AdminTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +646,7 @@
 		};
 		0D3B5EE71EC7484A00402742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8F2E27FF00E6D89037A4F9 /* Pods-SmaPhone-AdminTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +662,7 @@
 		};
 		0D3B5EE91EC7484A00402742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1EA877646E4D4F8E2A9CA11 /* Pods-SmaPhone-AdminUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H543XE4ASB;
@@ -485,6 +677,7 @@
 		};
 		0D3B5EEA1EC7484A00402742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C659C33311CEEFE67DFE76D6 /* Pods-SmaPhone-AdminUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H543XE4ASB;

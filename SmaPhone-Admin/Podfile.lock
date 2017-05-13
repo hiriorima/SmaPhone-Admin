@@ -1,0 +1,24 @@
+PODS:
+  - Socket.IO-Client-Swift (8.3.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift (~> 8.3.3)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 74c3f1c96aadaa597b42bfd108eb02d0af409434
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
+  SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
+
+PODFILE CHECKSUM: 11fbe7058fde4cd00ff09164597b72b9f897a914
+
+COCOAPODS: 1.2.1

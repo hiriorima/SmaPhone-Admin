@@ -1,0 +1,6 @@
+framework module Pods_SmaPhone_AdminTests {
+  umbrella header "Pods-SmaPhone-AdminTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
