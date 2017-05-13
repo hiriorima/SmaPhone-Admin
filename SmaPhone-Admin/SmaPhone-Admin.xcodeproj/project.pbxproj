@@ -14,6 +14,9 @@
 		0D3B5EC81EC7484A00402742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3B5EC61EC7484A00402742 /* LaunchScreen.storyboard */; };
 		0D3B5ED31EC7484A00402742 /* SmaPhone_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B5ED21EC7484A00402742 /* SmaPhone_AdminTests.swift */; };
 		0D3B5EDE1EC7484A00402742 /* SmaPhone_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B5EDD1EC7484A00402742 /* SmaPhone_AdminUITests.swift */; };
+		0D78FA5C1EC794CA0027D98F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D78FA5B1EC794CA0027D98F /* icon.png */; };
+		0D78FA5E1EC795060027D98F /* sumaphoneUI_bluetoothボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D78FA5D1EC795060027D98F /* sumaphoneUI_bluetoothボタン.png */; };
+		0D78FA601EC795840027D98F /* sumaphoneUI_タイトル画面へ.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D78FA5F1EC795840027D98F /* sumaphoneUI_タイトル画面へ.png */; };
 		0DDCC8A91EC74B370091857E /* sumaphoneUI-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC89C1EC74B370091857E /* sumaphoneUI-07.png */; };
 		0DDCC8AA1EC74B370091857E /* sumaphoneUI-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC89D1EC74B370091857E /* sumaphoneUI-08.png */; };
 		0DDCC8AB1EC74B370091857E /* sumaphoneUI-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC89E1EC74B370091857E /* sumaphoneUI-09.png */; };
@@ -28,6 +31,10 @@
 		0DDCC8B41EC74B370091857E /* sumaphoneUI-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC8A71EC74B370091857E /* sumaphoneUI-18.png */; };
 		0DDCC8B51EC74B370091857E /* sumaphoneUI-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC8A81EC74B370091857E /* sumaphoneUI-19.png */; };
 		0DDCC8B71EC74EFA0091857E /* LoginAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC8B61EC74EFA0091857E /* LoginAdminViewController.swift */; };
+		0DDCC8B91EC763680091857E /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC8B81EC763680091857E /* AdminViewController.swift */; };
+		0DDCC8BC1EC78F4F0091857E /* sumaphoneUI_キャンセルボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC8BA1EC78F4F0091857E /* sumaphoneUI_キャンセルボタン.png */; };
+		0DDCC8BD1EC78F4F0091857E /* sumaphoneUI_保存ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC8BB1EC78F4F0091857E /* sumaphoneUI_保存ボタン.png */; };
+		0DDCC8BF1EC78F7C0091857E /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC8BE1EC78F7C0091857E /* EditViewController.swift */; };
 		78184AB1CF90B602739C9B76 /* Pods_SmaPhone_AdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D35459B8D77B2B397C840 /* Pods_SmaPhone_AdminUITests.framework */; };
 		94750EE96134CB6AE052AE04 /* Pods_SmaPhone_AdminTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442B4E5B6CB06D03D5681D00 /* Pods_SmaPhone_AdminTests.framework */; };
 		F9DE6491A9F869AE0CA8C54A /* Pods_SmaPhone_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF378A32F97B4D2D58EEE77 /* Pods_SmaPhone_Admin.framework */; };
@@ -64,6 +71,9 @@
 		0D3B5ED91EC7484A00402742 /* SmaPhone-AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmaPhone-AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3B5EDD1EC7484A00402742 /* SmaPhone_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaPhone_AdminUITests.swift; sourceTree = "<group>"; };
 		0D3B5EDF1EC7484A00402742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D78FA5B1EC794CA0027D98F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0D78FA5D1EC795060027D98F /* sumaphoneUI_bluetoothボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI_bluetoothボタン.png"; sourceTree = "<group>"; };
+		0D78FA5F1EC795840027D98F /* sumaphoneUI_タイトル画面へ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI_タイトル画面へ.png"; sourceTree = "<group>"; };
 		0DDCC89C1EC74B370091857E /* sumaphoneUI-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI-07.png"; sourceTree = "<group>"; };
 		0DDCC89D1EC74B370091857E /* sumaphoneUI-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI-08.png"; sourceTree = "<group>"; };
 		0DDCC89E1EC74B370091857E /* sumaphoneUI-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI-09.png"; sourceTree = "<group>"; };
@@ -78,6 +88,10 @@
 		0DDCC8A71EC74B370091857E /* sumaphoneUI-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI-18.png"; sourceTree = "<group>"; };
 		0DDCC8A81EC74B370091857E /* sumaphoneUI-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI-19.png"; sourceTree = "<group>"; };
 		0DDCC8B61EC74EFA0091857E /* LoginAdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAdminViewController.swift; sourceTree = "<group>"; };
+		0DDCC8B81EC763680091857E /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		0DDCC8BA1EC78F4F0091857E /* sumaphoneUI_キャンセルボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI_キャンセルボタン.png"; sourceTree = "<group>"; };
+		0DDCC8BB1EC78F4F0091857E /* sumaphoneUI_保存ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sumaphoneUI_保存ボタン.png"; sourceTree = "<group>"; };
+		0DDCC8BE1EC78F7C0091857E /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		179D35459B8D77B2B397C840 /* Pods_SmaPhone_AdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaPhone_AdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442B4E5B6CB06D03D5681D00 /* Pods_SmaPhone_AdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaPhone_AdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4DBA885555BC06E282A50 /* Pods-SmaPhone-Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaPhone-Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmaPhone-Admin/Pods-SmaPhone-Admin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,14 +156,17 @@
 		0D3B5EBC1EC7484A00402742 /* SmaPhone-Admin */ = {
 			isa = PBXGroup;
 			children = (
+				0D78FA5B1EC794CA0027D98F /* icon.png */,
 				0DDCC89B1EC74AF30091857E /* Images */,
 				0D3B5EBD1EC7484A00402742 /* AppDelegate.swift */,
 				0D3B5EBF1EC7484A00402742 /* ViewController.swift */,
 				0DDCC8B61EC74EFA0091857E /* LoginAdminViewController.swift */,
+				0DDCC8B81EC763680091857E /* AdminViewController.swift */,
 				0D3B5EC11EC7484A00402742 /* Main.storyboard */,
 				0D3B5EC41EC7484A00402742 /* Assets.xcassets */,
 				0D3B5EC61EC7484A00402742 /* LaunchScreen.storyboard */,
 				0D3B5EC91EC7484A00402742 /* Info.plist */,
+				0DDCC8BE1EC78F7C0091857E /* EditViewController.swift */,
 			);
 			path = "SmaPhone-Admin";
 			sourceTree = "<group>";
@@ -175,6 +192,10 @@
 		0DDCC89B1EC74AF30091857E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0D78FA5F1EC795840027D98F /* sumaphoneUI_タイトル画面へ.png */,
+				0D78FA5D1EC795060027D98F /* sumaphoneUI_bluetoothボタン.png */,
+				0DDCC8BA1EC78F4F0091857E /* sumaphoneUI_キャンセルボタン.png */,
+				0DDCC8BB1EC78F4F0091857E /* sumaphoneUI_保存ボタン.png */,
 				0DDCC89C1EC74B370091857E /* sumaphoneUI-07.png */,
 				0DDCC89D1EC74B370091857E /* sumaphoneUI-08.png */,
 				0DDCC89E1EC74B370091857E /* sumaphoneUI-09.png */,
@@ -339,12 +360,17 @@
 				0DDCC8B01EC74B370091857E /* sumaphoneUI-14.png in Resources */,
 				0DDCC8AA1EC74B370091857E /* sumaphoneUI-08.png in Resources */,
 				0DDCC8B21EC74B370091857E /* sumaphoneUI-16.png in Resources */,
+				0D78FA601EC795840027D98F /* sumaphoneUI_タイトル画面へ.png in Resources */,
 				0DDCC8AB1EC74B370091857E /* sumaphoneUI-09.png in Resources */,
 				0DDCC8AD1EC74B370091857E /* sumaphoneUI-11.png in Resources */,
+				0DDCC8BD1EC78F4F0091857E /* sumaphoneUI_保存ボタン.png in Resources */,
 				0DDCC8B31EC74B370091857E /* sumaphoneUI-17.png in Resources */,
 				0D3B5EC81EC7484A00402742 /* LaunchScreen.storyboard in Resources */,
 				0DDCC8B11EC74B370091857E /* sumaphoneUI-15.png in Resources */,
 				0DDCC8B51EC74B370091857E /* sumaphoneUI-19.png in Resources */,
+				0D78FA5C1EC794CA0027D98F /* icon.png in Resources */,
+				0D78FA5E1EC795060027D98F /* sumaphoneUI_bluetoothボタン.png in Resources */,
+				0DDCC8BC1EC78F4F0091857E /* sumaphoneUI_キャンセルボタン.png in Resources */,
 				0D3B5EC51EC7484A00402742 /* Assets.xcassets in Resources */,
 				0D3B5EC31EC7484A00402742 /* Main.storyboard in Resources */,
 				0DDCC8AE1EC74B370091857E /* sumaphoneUI-12.png in Resources */,
@@ -512,6 +538,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDCC8BF1EC78F7C0091857E /* EditViewController.swift in Sources */,
+				0DDCC8B91EC763680091857E /* AdminViewController.swift in Sources */,
 				0D3B5EC01EC7484A00402742 /* ViewController.swift in Sources */,
 				0DDCC8B71EC74EFA0091857E /* LoginAdminViewController.swift in Sources */,
 				0D3B5EBE1EC7484A00402742 /* AppDelegate.swift in Sources */,
